@@ -9,22 +9,6 @@ plugins:
 #sass:
  # sass_dir: _sass
 
-defaults:
-  - scope:
-      path: _wiki
-      type: wiki
-    values:
-      layout: wiki
-      sectionid: wiki
-      category: wiki
-
-collections:
-  wiki:
-    permalink: /:collection/:path/
-    output: true
-    values:
-      layout: wiki
-
 # Exclude from processing.
 exclude:
   - Gemfile
